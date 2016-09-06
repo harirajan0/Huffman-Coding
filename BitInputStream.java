@@ -1,4 +1,5 @@
 /**
+ *	
  *	InputStream utility based on the java.nio package.  Reads
  *	up to 32 bits at a time from a file, using multiple buffers
  *	to quickly process read calls.  Runtime is approximately
