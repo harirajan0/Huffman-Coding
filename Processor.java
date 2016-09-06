@@ -1,4 +1,5 @@
 /**
+ *	
  *	Interface that all compression suites must implement. That is they must be
  *	able to compress a file and also reverse/decompress that process.
  * 
