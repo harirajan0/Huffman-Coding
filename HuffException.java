@@ -4,8 +4,6 @@
  *	that regular RuntimeExceptions are still handled in the regular
  *	way.
  *
- *	@author Brian Lavallee
- *	@since 5 November 2015
  */
 
 @SuppressWarnings("serial")

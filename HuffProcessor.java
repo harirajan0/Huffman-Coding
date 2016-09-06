@@ -1,3 +1,10 @@
+/**                                                                                                                                      
+ * Creates Huffman Tree given file
+ * Extracts code for each char using tree
+ * Compresses and decompresses file using Huffman tree
+ *                                                                  
+ */
+
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.PriorityQueue;
