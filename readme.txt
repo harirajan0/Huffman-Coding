@@ -12,12 +12,12 @@ For example, consider the file with only four unique characters, the characters 
 identified with only 2 bits apiece as opposed to 8 using 00, 01, 10, and 11 to represent each one. 
 A naive approach may do something like this and just trim the size of the character library to be 
 only 128 characters or maybe even just 64, saving 1 bit and 2 bits per character respectively. 
-Although mildly effective in some cases, more complicated algorithms can capitalize on the statistical
+Although mildly effective in some cases, more complicated algorithms can capitalize on the statistical 
 data of character distributions to extend compressibility even further. Huffman is one of these
 entropy encoding algorithms.
 
 ork mainly by utilizing variable length codes combined with character frequencies. Characters that 
 occur a lot get shorter codes while lesser used characters get longer codes. In some cases, longer 
 codes may even exceed the 8-bit length of the standard ASCII codes. While this may seem 
-counter-intuitive, it actually allows for more bits to be saved on higher frequency characters, making
-Huffman coding an efficient method for compression. 
+counter-intuitive, it actually allows for more bits to be saved on higher frequency characters, 
+making Huffman coding an efficient method for compression. 
