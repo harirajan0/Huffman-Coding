@@ -1,4 +1,5 @@
 /**
+ *	
  *	Basic bit OutputStream utility based on the java.nio
  *	package.  Uses multiple buffers to move optimized chunks
  *	at a time.  Allows for writing up to 32 bits at a time.
